@@ -8,6 +8,6 @@ In particular, the following Python codes implement the corresponding functions:
 
 -**spin_operators.py** is used to define spin operators (code from Iacopo, with minor revisions)
 
--**boltzmann_learning.py** is used for inferring the parameters of a spin model using boltzmann learning (code from Iacopo, with minor revisions)
+-**boltzmann_learning.py** is used for inferring the parameters of a spin model using boltzmann learning (code from Iacopo, with somewhat major revisions, i.e., parallelized code because of prior swig issues)
 
 -**optimal_partitioning.py** is used to calculate the optimal partition using Haimovici and Marsili (2015) and calculates the couplings using Gresele and Marsili (2017)
