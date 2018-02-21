@@ -58,6 +58,7 @@ def s2i_states(data):
 def optimal_partition(data, a=1.0):
     # transforms data (spin configuration states) into binary integers
     binary_state = s2i_states(data)
+    M = len(binary_state)
     
     # make S-partition
     data_histogram = Counter(binary_state)
